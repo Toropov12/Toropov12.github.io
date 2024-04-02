@@ -71,3 +71,41 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+@media screen and (max-width: 850px) {
+    .header-menu{
+      display: none;  
+    }
+    
+    .header-logo{
+        justify-content: center;
+    }
+    .cards-row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: auto;
+    }
+    .footer,
+    .footer-search-input,
+    .footer-search-button,
+    .social-networks{
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .footer-search-input{
+        margin-right: 0;
+    }
+    .footer-row,
+    .footer-search{
+        flex-wrap: wrap;
+    }
+    .social-networks{
+        justify-content: space-around;
+    }
+    .footer{
+        padding: 20px, 0;
+    }
+}
